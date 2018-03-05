@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorBlack"
+    tools:context="cr.ac.unadeca.todoexam.activities.FormularioActivityExam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="19dp"
+        android:gravity="center"
+        android:text="Ingrese los siguientes datos para registrarsar al usuario"
+        android:textColor="@color/colorWhite"
+        android:typeface="monospace"
+
+        />
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="16dp"
+        android:gravity="left"
+        android:text="Nombre:"
+
+        android:textColor="@color/colorWhite"
+        android:typeface="monospace"/>
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="Escriba un Nombre"
+        android:backgroundTint="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:id="@+id/lblApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:textColor="@color/colorWhite"
+        android:text="Apellido:"/>
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:backgroundTint="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textColor="@color/colorWhite"
+        android:hint="Escriba un Apellido"/>
+    <TextView
+        android:id="@+id/lblCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="left"
+        android:textColor="@color/colorWhite"
+        android:text="Cedula:"/>
+    <EditText
+        android:id="@+id/txtCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:backgroundTint="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:hint="Escriba el número de cédula"/>
+    <TextView
+        android:id="@+id/lblCodigoDeEmple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:backgroundTint="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textColor="@color/colorWhite"
+        android:gravity="left"
+        android:text="Cod. Empleado:"/>
+    <EditText
+        android:id="@+id/txtCodigoDeEmple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="Escriba codido de Empleado"/>
+    <TextView
+        android:id="@+id/lblDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:text="Departamento:"/>
+    <EditText
+        android:id="@+id/txtDepartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:backgroundTint="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:hint="Escriba su Departamento"/>
+
+    <TextView
+        android:id="@+id/lblTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:gravity="left"
+        android:text="Teléfono:"/>
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:hint="Escriba un Teléfono"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Guardar"
+        android:textColor="@color/colorWhite"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
